@@ -8,6 +8,14 @@
     <script src="bootstrap-3.3.7-dist/js/jquery.min.js"></script>
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles.css"/>  
+	
+	<style>
+
+	.affix {
+	 top: 20px;
+	}
+
+</style>
 </head>
 <body>
     <div class="fullwidth text-center" id="header">
@@ -17,6 +25,19 @@
     </div>
     
     <br> 
+	
+	<nav class="navbar navbar-inverse" >
+
+    		<ul class="nav navbar-nav nav-pills nav-stacked" data-spy="affix" data-offset-top="205">
+    			<li class="active"><a href="navbar-toggle.html">Home(pill)</a></li>
+                <li><a href="column-toggle.html"><span data-toggle="tooltip" title="Search your favourite destination"><span class="glyphicon glyphicon-plane"></span>&nbsp;Destinations(hover)</span></a></li>
+    			<li><a href="packages.html">Packages</a></li>
+    			<li><a href="#">Things to Do</a></li>
+    			<li><a href="table.html">Best Time to Visit</a></li>
+    		</ul>
+ 
+    </nav>
+    
  
     <div id="content">
 
@@ -26,6 +47,30 @@
                 <li><a href="navbar-toggle.html">Home</a></li>
                 <li class="active"><a href="#">Things to do(breadcrumbs)</a></li>
             </ul>
+			
+			    <div class=container>
+ 
+    	<div class="jumbotron">
+    	
+    	   <div class="row">
+    	<div class="col-md-6">
+    	<h3>Jumbotron</h3>
+    	<h2>Wanna know who you are!!</h2>
+    	<p>Explore the mystical parts of India and find yourself</p>
+    	
+    	</div>
+    	
+    	<div class="col-md-6">
+    	
+    	<img src="resources/explore.jpg" class="img img-responsive"/>
+    	
+    	 </div>
+    
+    	</div>
+    	</div>
+    	
+    	</div>
+			
             <div class="panel-group" id="accordion">
                 <div class="panel panel-default">
                 <div class="panel-heading">
